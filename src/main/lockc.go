@@ -8,6 +8,7 @@ import "lockservice"
 import "os"
 import "fmt"
 
+
 func usage() {
   fmt.Printf("Usage: lockc -l|-u primaryport backupport lockname\n")
   os.Exit(1)
