@@ -96,6 +96,7 @@ func (mr *MapReduce) Register(args *RegisterArgs, res *RegisterReply) error {
   return nil
 }
 
+
 func (mr *MapReduce) Shutdown(args *ShutdownArgs, res *ShutdownReply) error {
   DPrintf("Shutdown: registration server\n")
   mr.alive = false
